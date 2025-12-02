@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1 style="text-align: center;font-size: 40px;">Resume form</h1>
+    <form style="padding:10px;">
+        <label for="name_input">Name:</label>
+        <input id="name_input" type="text" placeholder="Enter your name" required><br><br>
+        <label for="email_input">Email:</label>
+        <input id="email_input" type="email" placeholder="email" required><br><br>
+        <label for="password">password:</label>
+        <input type="password" id="password"  required><br><br>
+        <label for="Age_input" min="1" max="100">Age:</label>
+        <input id="Age_input" type="number" required><br><br>
+        <label for="phone_input" >Phone:</label>
+        <input id="phone_input" type="tel" required><br><br>
+        <label for="Gender">Gender :</label><br>
+        <input type="radio" name="Gender" id="male" value="Male"><label for="Male">Male</label><br>
+        <input type="radio" name="Gender" id="aiml" value="female"><label for="female">Female</label><br><br>
+        <label for="dob">Date of birth: </label>
+        <input type="date" id="dob"><br><br>
+        <label for="course">Courses:</label>
+        <select id="course">
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="Javascript">javascript</option>
+        </select><br><br>
+        <label for="aadhar">Aadhar card:</label>
+        <input type="file" id="aadhar"><br><br>
+        <label for="portfolio">Portfolio url:</label>
+        <input type="url" id="aadhar"><br>
+    </form>
+</body>
+</html>

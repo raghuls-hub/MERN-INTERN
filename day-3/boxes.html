@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxes</title>
+</head>
+<body>
+    <style>
+        div{
+            height: 100px;    
+            width: 100px;
+            border: 1px solid;
+            margin: 10px;  
+        }
+        .one{
+            position: absolute;
+            background-color: red;
+            top: 30px;
+            left: 10px;
+            z-index: 1;
+        }
+        .two{
+            position: absolute;
+            top: 50px;
+            left: 20px;
+            background-color: green;
+            z-index: 2;
+        }
+        .three{
+            position: absolute;
+            top: 70px;
+            left: 30px;
+            background-color: blue;
+            z-index: 3;
+        }
+        .four{
+            position: absolute;
+            top: 90px;
+            left: 40px;
+            background-color: yellow;
+            z-index: 4;
+        }
+    </style>
+    <div class="one">class 1</div>
+    <div class="two">class 2</div>
+    <div class="three">class 3</div>
+    <div class="four">class 4</div>
+</body>
+</html>

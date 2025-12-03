@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+</head>
+<body>
+    <style>
+        div{
+            width: 200px;
+            height: 150px;
+            border: 1px solid;
+            margin: 20px;
+            background-color: lightgray;
+            text-align: justify;
+        }
+        .one{
+            overflow: visible;
+        }
+        .two{
+            overflow: hidden;
+        }
+        .three{
+            overflow: scroll;
+        }
+        .four{
+            overflow: auto;
+        }
+        .five{
+            overflow-x: scroll;
+            overflow-y: hidden;
+        }
+    </style>
+    <h1>visible - overflow:-</h1>
+    <div class="one">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus deserunt voluptate earum vero ipsum ipsam cumque excepturi libero ratione eligendi, atque, corporis molestias veritatis vitae itaque eum culpa aperiam commodi qui reiciendis. Vero, maxime tempora excepturi dignissimos enim temporibus. Praesentium omnis voluptatem sed nemo perspiciatis atque dolor repudiandae esse mollitia!</div>
+    <h1 style="margin-top:150px ;">hidden - overflow:-</h1>
+    <div class="two">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa eveniet impedit corrupti sequi deleniti aspernatur alias dolorum facere rem aliquam cum, tempora illo sint. Consequatur ratione ipsum doloribus voluptates, aspernatur enim corporis fuga reprehenderit est porro quasi magni hic placeat explicabo esse facilis! Voluptas aliquam velit minus earum, illo odit.</div>
+    <h1>scroll - overflow:-</h1>
+    <div class="three">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur omnis quisquam commodi! Voluptatem quam quibusdam dolores, facere earum optio! Libero omnis dicta architecto unde aut enim porro quo fugit neque odio esse hic suscipit praesentium, cupiditate quisquam officia voluptatibus atque soluta consectetur dolore nulla beatae? Recusandae eius nesciunt doloremque! Nesciunt!</div>
+    <h1>auto - overflow:-</h1>
+    <div class="four">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur omnis quisquam commodi! Voluptatem quam quibusdam dolores, facere earum optio! Libero omnis dicta architecto unde aut enim porro quo fugit neque odio esse hic suscipit praesentium, cupiditate quisquam officia voluptatibus atque soluta consectetur dolore nulla beatae? Recusandae eius nesciunt doloremque! Nesciunt!</div>
+    <h1>X and Y - overflow:-</h1>
+    <div class="five">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur omnis quisquam commodi! Voluptatem quam quibusdam dolores, facere earum optio! Libero omnis dicta architecto unde aut enim porro quo fugit neque odio esse hic suscipit praesentium, cupiditate quisquam officia voluptatibus atque soluta consectetur dolore nulla beatae? Recusandae eius nesciunt doloremque! Nesciunt!</div>
+</body>
+</html>
